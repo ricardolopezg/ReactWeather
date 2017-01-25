@@ -8,6 +8,7 @@ var React = require('react');
 //   }
 // });
 
+
 // Refactored
 var About = (props) => {
     return (
