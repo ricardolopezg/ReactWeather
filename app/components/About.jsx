@@ -8,15 +8,14 @@ var React = require('react');
 //   }
 // });
 
-
 // Refactored
 var About = (props) => {
-    return (
-      <div>
-        <h3>About</h3>
-        <p>Welcome to the About page!</p>
-      </div>
-    );
+  return (
+    <div>
+      <h3>About</h3>
+      <p>Welcome to the About page!</p>
+    </div>
+  );
 }
 
 module.exports = About;
