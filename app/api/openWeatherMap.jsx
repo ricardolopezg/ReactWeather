@@ -17,7 +17,8 @@ module.exports = {
         return res.data.main.temp;
       }
     }, function (err) {
-      throw new Error('can\'t get that weather!');
+      var err = 'can\'t get that weather!'
+      throw new Error(err);
     });
   }
 }
