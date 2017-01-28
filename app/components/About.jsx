@@ -16,7 +16,7 @@ var border = {
 var About = (props) => {
   return (
     <div>
-      <h1 className="text-center">About This App</h1>
+      <h1 className="text-center page-title">About This App</h1>
       <p>
         I built this in React. I built this in React. I built this in React. I built this in React. I built this in React. I built this in React. I built this in React. I built this in React. I built this in React. I built this in React. I built this in React. I built this in React. I built this in React.
       </p>
